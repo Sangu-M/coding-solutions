@@ -31,7 +31,7 @@ Explanation: Since n is 0, the sum is 0.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-16T17:38:20.499Z  
+**Submitted:** 2026-10-16T17:49:25.857Z  
 
 ```py
 n = int(input())
