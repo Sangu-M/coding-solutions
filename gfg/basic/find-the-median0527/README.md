@@ -33,20 +33,20 @@ Explanation: The average of both elements will result in 1.5.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T05:52:25.052Z  
+**Submitted:** 2026-10-19T05:53:06.901Z  
 
 ```py
 class Solution:
     def findMedian(self, arr):
         #code here.
         arr.sort()
+        n=len(arr)
         
-        
-        if len(arr)%2 !=0:
-            mid = len(arr)//2
+        if n%2 !=0:
+            mid = n//2
             return arr[mid]
         else:
-            mid = len(arr)//2
+            mid = n//2
             return (arr[mid-1]+arr[mid])/2
 ```
 
