@@ -33,7 +33,7 @@ Explanation: The average of both elements will result in 1.5.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T05:51:27.670Z  
+**Submitted:** 2026-10-19T05:52:25.052Z  
 
 ```py
 class Solution:
@@ -47,8 +47,7 @@ class Solution:
             return arr[mid]
         else:
             mid = len(arr)//2
-            midValue = (arr[mid-1]+arr[mid])/2
-            return midValue
+            return (arr[mid-1]+arr[mid])/2
 ```
 
 ---
