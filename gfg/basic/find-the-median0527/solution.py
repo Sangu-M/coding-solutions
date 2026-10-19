@@ -9,5 +9,4 @@ class Solution:
             return arr[mid]
         else:
             mid = len(arr)//2
-            midValue = (arr[mid-1]+arr[mid])/2
-            return midValue
+            return (arr[mid-1]+arr[mid])/2
