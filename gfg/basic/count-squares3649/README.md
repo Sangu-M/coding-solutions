@@ -25,7 +25,7 @@ Explanation: 1 is the only Perfect Square less than 3. So, the Output is 1.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T06:50:35.719Z  
+**Submitted:** 2026-10-20T15:47:05.030Z  
 
 ```py
 import math
