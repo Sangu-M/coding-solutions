@@ -1,8 +1,7 @@
 class Solution:
-    def sumOfSeries(self,n):
+    def sumOfSeries(self, n: int) -> int:
         #code here
         result = 0
-        for i in range(n+1):
-            result = result + (i**3)
-            
+        for i in range (n+1):
+            result = result + i**3
         return result
