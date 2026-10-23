@@ -27,13 +27,15 @@ Explanation: GCD of 60 and 36 is 12
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T07:57:33.670Z  
+**Submitted:** 2026-10-23T03:35:47.431Z  
 
 ```py
 class Solution:
     def gcd(self, a, b):
         while b!=0:
-            a,b=b,a%b
+            reminder = a%b
+            a=b
+            b= reminder
         return a
                 
 ```
