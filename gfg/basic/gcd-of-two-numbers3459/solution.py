@@ -1,6 +1,8 @@
 class Solution:
     def gcd(self, a, b):
         while b!=0:
-            a,b=b,a%b
+            reminder = a%b
+            a=b
+            b= reminder
         return a
                 
