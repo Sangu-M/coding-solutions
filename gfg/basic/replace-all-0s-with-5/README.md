@@ -29,7 +29,7 @@ Explanation: Since there are no zeroes in 121, the number remains as 121.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T16:26:38.986Z  
+**Submitted:** 2026-10-23T16:28:54.538Z  
 
 ```py
 class Solution:
