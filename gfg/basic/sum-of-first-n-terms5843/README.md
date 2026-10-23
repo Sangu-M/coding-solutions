@@ -25,16 +25,15 @@ Explanation: 13 + 23 + 33 + 43 + 53 + 63 + 73 = 784
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T05:24:53.081Z  
+**Submitted:** 2026-10-23T03:35:27.479Z  
 
 ```py
 class Solution:
-    def sumOfSeries(self,n):
+    def sumOfSeries(self, n: int) -> int:
         #code here
         result = 0
-        for i in range(n+1):
-            result = result + (i**3)
-            
+        for i in range (n+1):
+            result = result + i**3
         return result
 ```
 
