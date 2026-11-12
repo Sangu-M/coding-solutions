@@ -4,9 +4,7 @@
 
 ## Problem
 
-You are given an array of integers  **arr[]**. You have to reverse the given array.
-
- **Note:** Modify the array in place.
+Given an array of integers  **arr[]**, reverse the array in place.
 
 **Examples:
 **
@@ -35,14 +33,13 @@ Explanation: The array has only single element, hence the reversed array is same
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-13T15:11:51.310Z  
+**Submitted:** 2026-11-12T05:08:15.069Z  
 
 ```py
 class Solution:
     def reverseArray(self, arr):
         # code here
-        arr.reverse()
-        
+        return arr.reverse()
         
         
 ```
